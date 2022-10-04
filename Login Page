@@ -1,0 +1,89 @@
+<!Doctype html5>
+<html lang="en-US">
+<head>
+    <title>Login Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h3 {
+            text-align: center;
+            margin-top: 20px;
+            color: orange;
+            font-size: 30px;
+        }
+        body {
+            background-image: url("code1.jpg");
+            background-position: bottom;
+            margin-top: 110px;
+        }
+        p {
+            text-align: center;
+        }
+        form {
+            margin: auto;
+            line-height: 30px;
+            border: 1px;
+            width: 400px;
+            height: 180px;
+            padding: 15px;
+        }
+        input {
+            width: 400px;
+            padding: 15px;
+            border-radius: 20px;
+            border-width: 3px;
+            background-color: #ffbf80;
+            border-color: #FF9966;
+            border-style: inset;
+        }
+        a {
+            color: orange;
+        }
+        a:hover {
+            color: lightblue;
+        }
+        button#signin {
+            color: white;
+            width: 150px;
+            padding: 14px;
+            background-color: #FF9933;
+            border-radius: 20px;
+            border-color: #FF9933;
+            font-size: 17px;
+        }
+        div#button {
+            text-align: center;
+            float:;
+            margin: 20px;
+            font-style: italic;
+            font-weight: bold;
+        }
+        span.heading {
+            font-style: italic;
+            font-weight: bold;
+            margin: 12px;
+            font-size: 17px;
+            color: #66CCFF;
+        }
+        span#big {
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Welcome To <br><span id="big">GEYSERCODE</span></h3>
+    <form action="MTU Student Portal.html" target="_blank" autocomplete="off">
+        <span class="heading">E-mail</span><br>
+        <input type="text" name="email" title="E-mail required" required><br>
+        <span class="heading">Password</span><br>
+        <input type="Password" name="epass" title="Password required" required><br>
+        <div id="button">
+            <button id="signin" type="submit" target="_blank"><i>Sign In</i></button>
+        </div>
+    </form>
+    <br><br><p>
+        Don't have an account? <a href="" target="_blank">Sign up</a><br><br>Or<br><a href=""><i>Forgot Password?</i></a>
+    </p>
+</body>
+</html>
